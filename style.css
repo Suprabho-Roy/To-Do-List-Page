@@ -109,7 +109,7 @@ h1{
 
 
 
-@media only screen and (max-width:1374px){
+@media only screen and (max-width:900px){
   body{
     background-image: url('background-potrait.jpg');
     background-size: cover;
