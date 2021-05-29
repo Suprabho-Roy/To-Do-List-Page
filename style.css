@@ -1,0 +1,115 @@
+
+body{
+  background: Coral;
+}
+
+
+
+h1{
+  color: #7FFF00;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.container{
+  text-align: center;
+}
+
+.to-dos{
+}
+
+.section-styling{
+  margin-top: 28px;
+  background: transparent;
+}
+
+.paragraph-styling{
+  background: transparent;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  display: inline;
+  font-size: 22px;
+  text-indent: inherit;
+  font-kerning: auto;
+  margin-left: 10px;
+  position: relative;
+  bottom: 1px;
+}
+
+
+
+
+.paragraph-styling::selection{
+  background: yellow;
+  color: green;
+}
+
+.remove-button-styling{
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: Gainsboro;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 100px;
+  font-size: 25px;
+  position: absolute;
+  right: 20px;
+  border-radius: 10px;
+}
+
+.remove-button-styling:hover{
+
+  color: white;
+}
+
+.done-button-styling{
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: lime;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 100px;
+  font-size: 25px;
+  position: absolute;
+  right: 120px;
+  border-radius: 10px;
+}
+
+.done-button-styling:hover{
+  color: LightSeaGreen;
+}
+
+#addToDo{
+  margin-left: 5px;
+  cursor: pointer;
+  height: 36px;
+  width: 70px;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 10px;
+}
+
+#addToDo:hover{
+  background: DarkSlateBlue;
+  color: white;
+  border: none;
+}
+
+#inputField{
+  border-radius: 20px;
+  width: 500px;
+  height: 30px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#inputField:focus{
+  border-color: transparent;
+}
+
+
+
+@media only screen and (max-width:613px){
+  #inputField{
+    width: 250px;
+  }
+}
